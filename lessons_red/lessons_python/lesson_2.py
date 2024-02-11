@@ -35,7 +35,8 @@
 #        #3
 # # def visokisny():
 # #     if a % 4 == 0 or a % 400 == 0 and a !=
-#
+rgrgr=324
+rfdgd=54645
          #4
 def text():
     t = input()
