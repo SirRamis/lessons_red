@@ -4,7 +4,7 @@ def paperwork(n, m):
         return 0
     return n * m
 
-def even_or_odd(number):
+def even_or_odd():
     number = int(input())
     if number % 2 == 0:
         return 'Even'
