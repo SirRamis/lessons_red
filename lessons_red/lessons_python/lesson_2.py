@@ -32,19 +32,21 @@
 # i = 21
 # print(chetnoe())
 #
-#        #3
-# # def visokisny():
-# #     if a % 4 == 0 or a % 400 == 0 and a !=
-rgrgr=324
-rfdgd=54645
+      # 3
+#def visokisny():
+a = 200
+if a % 4 == 0 or a % 400 == 0 and a % 400 != 0:
+    print(a)
+
+
          #4
-def text():
-    t = input()
-    x = int(input())
-    for _ in range(x):
-        #return text()
-        print(t)
-text()
+# def text():
+#     t = input()
+#     x = int(input())
+#     for _ in range(x):
+#         #return text()
+#         print(t)
+# text()
 #        #5
 # # def colculator():
 # #     return
