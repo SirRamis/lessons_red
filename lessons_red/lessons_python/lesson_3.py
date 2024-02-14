@@ -86,15 +86,15 @@ print(my_list_2)
       2) Членов семьи нужно перечислить через запятую. 
      Ожидаемый результат - программа выводит семью с бОльшим составом. Если состав одинаковый, print("Equal')
 '''
-# family_1 = input().split(',')
-# family_2 = input().split(',')
-#
-# if len(family_1) > len(family_2):
-#     print(family_1)
-# elif len(family_2) > len(family_1):
-#     print(family_2)
-# else:
-#     print('Equal')
+family_1 = input().split(',')
+family_2 = input().split(',')
+
+if len(family_1) > len(family_2):
+    print(family_1)
+elif len(family_2) > len(family_1):
+    print(family_2)
+else:
+    print('Equal')
 
     # 5
 '''Создайте словарь film c ключами title, director, year, budget, main_actor, slogan.\n
