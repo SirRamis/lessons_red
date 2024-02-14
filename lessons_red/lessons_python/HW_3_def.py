@@ -27,3 +27,9 @@ def E2():
 def E3():
     list = ['cat', 'dog', 'horse', 'cow']
     print(tuple(list))
+
+def E4():
+    family_1 = input()
+    family_2 = input()
+    if len(family_1) > len(family_2):
+        print(family_1 'is bigger')
