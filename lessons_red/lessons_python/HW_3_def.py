@@ -23,3 +23,7 @@ def E2():
         if isinstance(si, str) and 'a' in si:
             w.append(si)
     print(w)
+
+def E3():
+    list = ['cat', 'dog', 'horse', 'cow']
+    print(tuple(list))
