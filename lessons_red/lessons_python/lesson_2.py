@@ -48,8 +48,8 @@ def text():
         print(t)
 text()
        #5
-# def colculator():
-#     return
+def colculator():
+    return
 
 num1 = int(input())
 num2 = int(input())
