@@ -32,11 +32,11 @@ def chetnoe():
 i = 21
 print(chetnoe())
 
-      3
+     # 3
 def visokisny():
-a = 200
-if a % 4 == 0 or a % 400 == 0 and a % 400 != 0:
-    print(a)
+    a = 200
+    if a % 4 == 0 or a % 400 == 0 and a % 400 != 0:
+        print(a)
 
 
          #4
