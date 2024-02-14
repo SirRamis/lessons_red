@@ -40,30 +40,30 @@ if a % 4 == 0 or a % 400 == 0 and a % 400 != 0:
 
 
          #4
-# def text():
-#     t = input()
-#     x = int(input())
-#     for _ in range(x):
-#         #return text()
-#         print(t)
-# text()
-#        #5
-# # def colculator():
-# #     return
-#
-# num1 = int(input())
-# num2 = int(input())
-# operator = input()
-#
-# if operator == '+':
-#     result = num1 + num2
-#     print(f'{num1} {operator} {num2} = {result}')
-# if operator == '-':
-#     result = num1 - num2
-#     print(f'{num1} {operator} {num2} = {result}')
-# if operator == '*':
-#     result = num1 * num2
-#     print(f'{num1} {operator} {num2} = {result}')
-# if operator == '/':
-#     result = num1 / num2
-#     print(f'{num1} {operator} {num2} = {result}')
+def text():
+    t = input()
+    x = int(input())
+    for _ in range(x):
+        #return text()
+        print(t)
+text()
+       #5
+# def colculator():
+#     return
+
+num1 = int(input())
+num2 = int(input())
+operator = input()
+
+if operator == '+':
+    result = num1 + num2
+    print(f'{num1} {operator} {num2} = {result}')
+if operator == '-':
+    result = num1 - num2
+    print(f'{num1} {operator} {num2} = {result}')
+if operator == '*':
+    result = num1 * num2
+    print(f'{num1} {operator} {num2} = {result}')
+if operator == '/':
+    result = num1 / num2
+    print(f'{num1} {operator} {num2} = {result}')
