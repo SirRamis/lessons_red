@@ -17,23 +17,23 @@
 # '''
 #
 #        #1
-# def zdorovie():
-#     if z <= 0:
-#         return False
-#     return True
-# z = 0
-# print(zdorovie())
-#
-#        #2
-# def chetnoe():
-#     if i % 2 == 0:
-#         return 'Четное'
-#     return 'Нечетное'
-# i = 21
-# print(chetnoe())
-#
-      # 3
-#def visokisny():
+def zdorovie():
+    if z <= 0:
+        return False
+    return True
+z = 0
+print(zdorovie())
+
+       #2
+def chetnoe():
+    if i % 2 == 0:
+        return 'Четное'
+    return 'Нечетное'
+i = 21
+print(chetnoe())
+
+      3
+def visokisny():
 a = 200
 if a % 4 == 0 or a % 400 == 0 and a % 400 != 0:
     print(a)
