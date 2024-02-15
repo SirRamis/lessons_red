@@ -33,3 +33,5 @@ def E4():
     family_2 = input()
     if len(family_1) > len(family_2):
         print(f'{family_1} is bigger')
+
+def E5():
