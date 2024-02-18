@@ -17,7 +17,7 @@ def E2():
         if isinstance(i, int):
             summ.append(i)
     print(sum(summ))
-
+    print(summ)
     w = []
     for si in list_1:
         if isinstance(si, str) and 'a' in si:
@@ -35,4 +35,4 @@ def E4():
         print(f'{family_1} is bigger')
 
 def E5():
-    fa
+    fadfdf
