@@ -13,3 +13,7 @@ def is_palindrome(text):
 
 text = 'hkdj . gfkj'
 print(is_palindrome(text))
+
+starts_with = lambda x: x.startswith('W')
+result = starts_with('Wfdfsgjk')
+print(result)
