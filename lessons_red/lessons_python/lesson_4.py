@@ -18,3 +18,10 @@ def decorator(func):
 def my_wrapper(item):
     return f'{item} is wrapped'
 my_wrapper('lalala')
+def kwa(**kwargs):
+    print(type(kwargs))
+    print(kwargs)
+kwa(name='ram', lname='smit',posit='sfsd')
+
+res = lambda x, y: x*y
+print(res(5,5))
