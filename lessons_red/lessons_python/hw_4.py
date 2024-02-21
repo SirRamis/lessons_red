@@ -38,11 +38,4 @@ print(q, w, e)
 # print(s, p, d)  # Выводим результаты
 import math
 
-def square(a):
-    p = a * 4
-    s = a * a
-    d = a * (2 ** 0.5)  # Или d = a * math.sqrt(2)
-    return p, s, d
 
-q, w, e = square(5)
-print(q, w, e)
