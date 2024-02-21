@@ -42,4 +42,55 @@ print_arguments(name="Alice", age=30, city="New York", country="USA")
 
         #3
 
-def
+def decorator(func):
+
+    def wrapper(*args, **kwargs): # (4, 5)
+        print('Делаем что-то до')
+        result = func(*args, **kwargs) # add
+        print('Делаем что-то после')
+        return result
+
+    return wrapper
+
+@decorator
+def add(a):
+    return a
+
+print(add(1))
+
+def decorator(func):
+
+    def wrapper(*args, **kwargs): # (4, 5)
+        print('Делаем что-то до')
+        result = func(*args, **kwargs) # add
+        print('Делаем что-то после')
+        return result
+
+    return wrapper
+
+@decorator
+def add(a):
+    return a
+
+print(add(1))
+
+Aleksandr Matveev 21:37
+def decorator(func):
+
+    def wrapper(*args, **kwargs): # (4, 5)
+        print('Делаем что-то до')
+        result = func(*args, **kwargs) # add
+        print('Делаем что-то после')
+        return result
+
+    return wrapper
+
+@decorator
+def add(a):
+    return a
+
+print(add(1))
+
+# add_new = decorator(add)
+# result = add_new(4)
+# print(result)
