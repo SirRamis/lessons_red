@@ -1,8 +1,8 @@
-def sum_it(a, b, c):
-    return a + b + c
-
-
-print(sum_it(5, 4, c=10))
+# def sum_it(a, b, c):
+#     return a + b + c
+#
+#
+# print(sum_it(5, 4, c=10))
 
 
 def decorator(func):
@@ -16,4 +16,5 @@ def decorator(func):
 
 @decorator
 def my_wrapper(item):
-    return
+    return f'{item} is wrapped'
+my_wrapper('lalala')
