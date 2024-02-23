@@ -5,3 +5,4 @@ class Persen:
 
 person_1 = Persen('Ramis', 'Sir')
 print(person_1.fname)
+print(person_1.lname)
