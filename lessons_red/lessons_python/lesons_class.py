@@ -20,4 +20,18 @@
 #         print(f'{self.last_name}')
 # per = Person('sdf','sdfas',45)
 # print(list(per))
- a = 137
+gender = {
+    'm': 'Дорогой',
+    'f': 'Дорогая'
+}
+
+a = [
+    ['Ramis','Sirazetdinov', 123, 'm'],
+    ['Amina','Nuriahmet',22, 'f'],
+    ['Ilgiz','Kadirov', 55, 'm']
+    ]
+for name, lname, balance, g in a:
+    text = f"{gender[g]} {name} {lname}, баланс вашего счета составляет {balance} руб."
+    print(text)
+print(type(a))
+print(type(gender))
