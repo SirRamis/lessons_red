@@ -81,7 +81,7 @@ def check_password(x):
     a = "!@#$%*"
     b = []  # zifri
     c = []  # spez znaki
-    d =
+    d = []  # zaglavnii
     for i in x:
         if i.isdigit():
             b += i
@@ -91,8 +91,14 @@ def check_password(x):
         if k in a:
             c += k
     print(c)
+
     for y in x:
         if y.isupper():
             d.append(y)
+    print(d)
+
+    if len(b) >= 10:
+        return True
+    print(len(b))
 
 check_password('d24hsf!gsdgfQWE1@457#$')
