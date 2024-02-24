@@ -20,6 +20,4 @@
 #         print(f'{self.last_name}')
 # per = Person('sdf','sdfas',45)
 # print(list(per))
-a = input()
-b = list(a)
-print(a[-1])
+ a = 137
