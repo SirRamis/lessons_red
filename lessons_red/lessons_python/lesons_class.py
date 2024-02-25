@@ -97,10 +97,10 @@ def check_password(x):
             d.append(y)
     print(d)
 
-    if len(x) >= 10 and b and c and d:
-        return True
-    else:
-        return False
+    # if len(x) >= 10 and b and c and d:
+    #     return True
+    # else:
+    #     return False
 
     if len(x) >= 10 and b and c and d:
         print("Perfect password")
@@ -108,3 +108,16 @@ def check_password(x):
         print("Easy peasy")
 
 check_password('d24hsf!gsdgfQWE1@457#$')
+def count_letters(slovo):
+    K = []
+    N = []
+    for i in slovo:
+        if i.islower():
+            K.append(i)
+    for k in slovo:
+        if k.isupper():
+            N.append(k)
+    print(f'Количество заглавных символов: {len(N)}')
+    print(f'Количество строчных символов: {len(K)}')
+
+count_letters('rkehvjhevvvbvERERG')
