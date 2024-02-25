@@ -97,8 +97,14 @@ def check_password(x):
             d.append(y)
     print(d)
 
-    if len(b) >= 10:
+    if len(x) >= 10 and b and c and d:
         return True
-    print(len(b))
+    else:
+        return False
+
+    if len(x) >= 10 and b and c and d:
+        print("Perfect password")
+    else:
+        print("Easy peasy")
 
 check_password('d24hsf!gsdgfQWE1@457#$')
