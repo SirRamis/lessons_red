@@ -121,3 +121,4 @@ def count_letters(slovo):
     print(f'Количество строчных символов: {len(K)}')
 
 count_letters('rkehvjhevvvbvERERG')
+erdgdf
