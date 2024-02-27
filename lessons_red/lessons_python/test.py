@@ -1,4 +1,9 @@
 def check_password(x):
+    """
+
+    :param x:
+    :return:
+    """
     a = "!@#$%*"
     b = []  # zifri
     c = []  # spez znaki

@@ -126,6 +126,11 @@ import turtle
 
 
 def move(size):
+    """
+
+    :param size:
+    :return:
+    """
     turtle.forward(size)
     turtle.left(90)
 
