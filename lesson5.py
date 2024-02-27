@@ -1,13 +1,15 @@
-class Persen:
-    def __init__(self,fname, lname):
+class Person:
+    def __init__(self, ase, fname, lname):
+        self.ase = ase
         self.fname = fname
         self.lname = lname
 
-person_1 = Persen('Ramis', 'Sir')
+person_1 = Person("tytyt", 'Ramis', 'Sir')
+print(person_1.ase)
 print(person_1.fname)
 print(person_1.lname)
 
-def check_logs(log):
+def check_logs(log) -> int:
     if len(log)== 0:
         return 0
     elif len(log) == 1:
