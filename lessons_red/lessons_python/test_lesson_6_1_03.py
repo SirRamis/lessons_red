@@ -2,6 +2,8 @@ import pytest
 import requests
 
 base_url = "https://restful-booker.herokuapp.com/booking"
+
+
 # def sum_it(x, y):
 #     return x + y
 #
@@ -20,5 +22,15 @@ base_url = "https://restful-booker.herokuapp.com/booking"
 def test_get_booking_by_id():
     response = requests.get(f'{base_url}/1')
     response_data = response.json()
-    print(response_data)
+    expected_keys = [
+        "firstname",
+        "lastname",
+        "totalprice",
+        "depositpaid",
+        "bookingdates",
+        "additionalneeds"
+    ]
+
     assert response.status_code == 200
+    for key in expected_keys:
+        assert key in response_data.keys()
