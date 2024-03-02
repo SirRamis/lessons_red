@@ -34,3 +34,7 @@ def test_get_booking_by_id():
     assert response.status_code == 200
     for key in expected_keys:
         assert key in response_data.keys()
+
+
+
+        гпщшл
