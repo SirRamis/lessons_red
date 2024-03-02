@@ -1,11 +1,16 @@
 class new:
 
-    def __init__(self, *args):
-        return args
+    # def __init__(self, *args):
+    #     return args
 
     itMoves = True
-    shouldItMove = True
+    shouldItMove = False
 
-    if (itMoves):
+    if (True):
         if (shouldItMove):
             print('Ok')
+        else:
+            print('Problem')
+    else:
+        if(True):
+            print('some')
